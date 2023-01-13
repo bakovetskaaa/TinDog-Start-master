@@ -1,0 +1,215 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat-Bold";
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/*Headings*/
+.big-heading{
+    font-family: 'Montserrat-Black';
+    text-decoration-color: black;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/*Containers*/
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+/*Section*/
+
+.colored-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section{
+    background-color: white;
+}
+
+
+/* Navigation Bar*/
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+
+.navbar-brand {
+    font-family: Ubuntu;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light"
+}
+
+/*Download Buttons*/
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+
+
+
+/*Features Section*/
+
+#features {
+    padding: 7% 15%;
+    position: relative;
+}
+
+.feature-title{
+    font-size: 1.5rem;
+}
+
+.container {
+    margin: 70px auto;
+}
+
+.fa-solid {
+    color: #ef8172;
+    font-size: 75px;
+
+}
+
+.fa-solid:hover {
+    color: #ff4c68;
+}
+
+/*Title Image*/
+
+#title {
+    text-align: left;
+}
+
+#title.container-fluid{
+    padding: 3% 15%;
+}
+
+.title-image {
+    position: absolute;
+    width: 20%;
+    height: 78%;
+    transform: rotate(25deg);
+    right: 30%;
+}
+
+.feature-box {
+    padding: 5%;
+}
+
+
+/*Testimonial Section*/
+#testimonials {
+    background-color: #ef8172;
+}
+
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+.testimonials-image {
+    margin: 20px;
+    width: 10%;
+    border-radius: 100%;
+
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+
+/*Press Section*/
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/*Prising Section*/
+#pricing {
+    padding: 100px;
+}
+
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+.card{
+    height: 400px;
+}
+
+#cta{
+    height: 350px;
+    padding: 80px 0 1px 0;
+}
+
+.download-button-low{
+    margin: 30px;
+}
+
+#footer{
+    padding: 25px 0 10px;
+    color: grey;
+}
+
+
+.footer-link{
+    margin:10px;
+    color: black;
+}
+
+#p{
+    margin-top: 6px;
+    margin-bottom: 0;
+}
+#bakovetskaaa{
+    font-size: 75%;
+}
+
+/* Media Section */
+@media (max-width: 1028px){
+
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        width: 100%;
+        height: 100%;
+        transform: rotate(0);
+    }
+}
